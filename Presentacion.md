@@ -56,8 +56,8 @@ git commit -m "Creación inicial del archivo de presentación con la descripció
 
 # Verifique el historial.
 git log
-### 4. Creación del repositorio en GitHub.
 ```
+### 4. Creación del repositorio en GitHub.
 ![Github](https://cdn.dribbble.com/userupload/2608299/file/original-00f24643a2c18bc04251f7a2019d4743.gif)
 
 
@@ -92,4 +92,8 @@ git push -u origin main
 7. Scopes (Permisos) Marque la casilla repo.
 8. Presione en "Generate token". 
 9. Guarde mi token para luego introducirlo en el campo requerido.
+
 Y asi finalice mi actividad y la subi a GitHub.
+Fui haciendo commits para poder ver como iba quedando el resultado y ver que podia agregar o necesitaba cambiar, surgieron varios erroes como:
+El problema con el README, el codigo en el md no desaparecia y no se podia hacer push.
+Todos los solucione buscando en la pagina de markdown y en google.
