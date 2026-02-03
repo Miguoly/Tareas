@@ -3,7 +3,7 @@
 **Autor:** _Miguel Angel Gutierrez_  
 **Profesor:** _Javier Andres Gallego_
 
-![Git](https://miro.medium.com/v2/resize:fit:640/format:webp/0*5g3mp6zgIoqprOgV.png
+![Git](https://tenor.com/view/git-github-gif-1726717753059411020)
 ## Descripción del repositorio
 Este repositorio fue creado como parte de las **Tareas** del curso.  
 El objetivo principal es demostrar el **flujo de trabajo básico** con Git y GitHub, incluyendo:
@@ -40,10 +40,10 @@ git status
 ### 2. Creación del primer archivo.
 
 Lo cree en notepad++.
-1. Abri notepad++ y cree un archivo nuevo vacio.
-2. Lo guarde con el nombre de: "Presentacion".
-3. Busque en el tipo de archivo "Markdown" con la extension ".md".
-4. Ya seleccionado los parametros correctos, presione la tecla enter.
+**1.** Abri notepad++ y cree un archivo nuevo vacio.
+**2.** Lo guarde con el nombre de: "Presentacion".
+**3.** Busque en el tipo de archivo "Markdown" con la extension ".md".
+**4.** Ya seleccionado los parametros correctos, presione la tecla enter.
 
 ### 3. Primer commit.
 ```bash
@@ -57,38 +57,37 @@ git commit -m "Creación inicial del archivo de presentación con la descripció
 # Verifique el historial.
 git log
 ### 4. Creación del repositorio en GitHub.
-![Github(https://www.hackaboss.com/wp-content/uploads/elementor/thumbs/64e79ca5aff2fb7295bfddf9_github-que-es-re9uqd66a8o57yq0iibdzv2uz0ptpflu18v037snew.jpg)]
-
 ```
-1. Entre a https://github.com.
-2. Hice todos los pasos para tener cuenta.
-3. Cree un nuevo repositorio.
-4. Lo configure como:
-5. Nombre del repositorio: tareas.
-6. Descripción: Repositorio para almacenar todas mis tareas.
-7. NO aplique README, .gitignore ni licencia.
+![Github](https://www.hackaboss.com/wp-content/uploads/elementor/thumbs/64e79ca5aff2fb7295bfddf9_github-que-es-re9uqd66a8o57yq0iibdzv2uz0ptpflu18v037snew.jpg)
+**1.** Entre a https://github.com.
+**2.** Hice todos los pasos para tener cuenta.
+**3.** Cree un nuevo repositorio.
+**4.** Lo configure como:
+**5.** Nombre del repositorio: tareas.
+**6.** Descripción: Repositorio para almacenar todas mis tareas.
+**7.** NO aplique README, .gitignore ni licencia.
 
 8. Clic en Create repository.
 9. Copie la URL HTTPS.
 10. Y la vincule a mi repositorio local.
 ```bash
 # Vincule el repo local con el remoto
-git remote add origin`
+git remote add origin
 
 # Verifique que se haya vinculado correctamente
-git remote -v`
-# Subi los cambios`
+git remote -v
+# Subi los cambios
 git push -u origin main
 ```
 ### 5. Generar y Usar un Token de Acceso Personal (PAT)
 
-1. En GitHub, Me meti a configuraciones.
-2. Baje en el menú de la izquierda hasta Developer seƫngs. 
-3. Seleccione Personal access tokens > Tokens (classic). 
-4. Le di click en "Generate new token" como classic.
-5. Le di el nombre de "token para tareas".
-6. Expiracion: Elegi sin expiracion.
-7. Scopes (Permisos) Marque la casilla repo.
-8. Presione en "Generate token". 
-9. Guarde mi token para luego introducirlo en el campo requerido.
-Y asi finalice mi actividad y la subi a GitHub
+**1.** En GitHub, Me meti a configuraciones.
+**2.** Baje en el menú de la izquierda hasta Developer seƫngs. 
+**3.** Seleccione Personal access tokens > Tokens (classic). 
+**4.** Le di click en "Generate new token" como classic.
+**5.** Le di el nombre de "token para tareas".
+**6.** Expiracion: Elegi sin expiracion.
+**7.** Scopes (Permisos) Marque la casilla repo.
+**8.** Presione en "Generate token". 
+**9.** Guarde mi token para luego introducirlo en el campo requerido.
+Y asi finalice mi actividad y la subi a GitHub.
