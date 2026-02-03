@@ -3,7 +3,7 @@
 **Autor:** _Miguel Angel Gutierrez_  
 **Profesor:** _Javier Andres Gallego_
 
-[![Git](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/2560px-Git-logo.svg.png)]
+[![Git](https://miro.medium.com/v2/resize:fit:640/format:webp/0*5g3mp6zgIoqprOgV.png)]
 ## Descripción del repositorio
 Este repositorio fue creado como parte de las **Tareas** del curso.  
 El objetivo principal es demostrar el **flujo de trabajo básico** con Git y GitHub, incluyendo:
@@ -17,41 +17,41 @@ El objetivo principal es demostrar el **flujo de trabajo básico** con Git y Git
 
 ### 1. Configuración inicial de Git (solo una vez)
 
-```bash
-# Configure mi nombre y correo. 
 
-git config --global user.name "Tu Nombre Completo"
-git config --global user.email "tucorreo@ejemplo.com"
+`# Configure mi nombre y correo. 
 
-# Cree una carpeta para el proyecto.
+`git config --global user.name "Tu Nombre Completo"
+`git config --global user.email "tucorreo@ejemplo.com"
 
-mkdir tarea
-cd tarea
+`# Cree una carpeta para el proyecto.
 
-# Inicie el repositorio Git.
-git init
+`mkdir tarea
+`cd tarea
 
-# Verifique el estado.
-git status```
+`# Inicie el repositorio Git.
+`git init
+
+`# Verifique el estado.
+`git status 
 
 ### 2. Creación del primer archivo.
 
 Lo cree en notepad++.
-1. Abri notepad++ y cree un archivo nuevo vacio.
-2. Lo guarde con el nombre de: "Presentacion".
-3. Busque en el tipo de archivo "Markdown" con la extension ".md".
-4. Ya seleccionado los parametros correctos, presione la tecla enter.
+`1. Abri notepad++ y cree un archivo nuevo vacio.
+`2. Lo guarde con el nombre de: "Presentacion".
+`3. Busque en el tipo de archivo "Markdown" con la extension ".md".
+`4. Ya seleccionado los parametros correctos, presione la tecla enter.
 
 ### 3. Primer commit.
-```bash
-# Agrege el archivo al área de preparación.
-git add Presentacion.md
 
-# Cree el commit con el mensaje del documento.
-git commit -m "Creación inicial del archivo de presentación con la descripción del proyecto"
+`# Agrege el archivo al área de preparación.
+`git add Presentacion.md
 
-# Verifique el historial.
-git log```
+`# Cree el commit con el mensaje del documento.
+`git commit -m "Creación inicial del archivo de presentación con la descripción del proyecto"
+
+`# Verifique el historial.
+`git log
 ### 4. Creación del repositorio en GitHub.
 
 1. Entre a https://github.com.
@@ -65,15 +65,15 @@ git log```
 8. Clic en Create repository.
 9. Copie la URL HTTPS.
 10. Y la vincule a mi repositorio local.
-```bash
-# Vincule el repo local con el remoto
-git remote add origin
 
-# Verifique que se haya vinculado correctamente
-git remote -v
+`# Vincule el repo local con el remoto
+`git remote add origin
 
-# Subilos cambios
-git push -u origin main```
+`# Verifique que se haya vinculado correctamente
+`git remote -v
+
+`# Subilos cambios
+`git push -u origin main`
 
 ### 5. Generar y Usar un Token de Acceso Personal (PAT)
 
