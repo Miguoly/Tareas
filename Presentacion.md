@@ -58,7 +58,7 @@ git commit -m "Creación inicial del archivo de presentación con la descripció
 git log
 ### 4. Creación del repositorio en GitHub.
 ```
-![Github](https://www.hackaboss.com/wp-content/uploads/elementor/thumbs/64e79ca5aff2fb7295bfddf9_github-que-es-re9uqd66a8o57yq0iibdzv2uz0ptpflu18v037snew.jpg)
+![Github](https://cdn.dribbble.com/userupload/2608299/file/original-00f24643a2c18bc04251f7a2019d4743.gif)
 
 
 1. Entre a https://github.com.
